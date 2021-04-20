@@ -34,7 +34,7 @@ fn main() {
 	num = magic_num::magic_number();
 	//1
 	number = number | num;
-    println!("{}",number);
+	println!("{}",number);
 	number = rand::thread_rng().gen_range(0, 231) | num;
 	println!("{}",number);
 }
